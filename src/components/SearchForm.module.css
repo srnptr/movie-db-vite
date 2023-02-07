@@ -1,0 +1,28 @@
+.search-form {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.form-input {
+  background: var(--clr-white);
+  border: transparent;
+  border-radius: var(--radius);
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  margin-top: 1rem;
+  max-width: 600px;
+  padding: 1rem;
+  width: 100%;
+}
+.form-input:focus-visible {
+  outline: 0.5px solid #e5e5e5;
+}
+.error {
+  color: var(--clr-red-dark);
+  text-transform: capitalize;
+  padding-top: 0.5rem;
+  letter-spacing: var(--spacing);
+}
